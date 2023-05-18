@@ -8,7 +8,7 @@ class Mensaje {
 
 class ChatMensajes {
     constructor() {
-        this.mensaje = [],
+        this.mensajes = [],
         this.usuarios = {};
     }
 
