@@ -9,7 +9,7 @@ class Mensaje {
 class ChatMensajes {
     constructor() {
         this.mensaje = [],
-        this.usuario = {};
+        this.usuarios = {};
     }
 
     get ultimos10() {
@@ -32,7 +32,7 @@ class ChatMensajes {
     }
 
     desconectarUsuario( id ) {
-        delete this.usuario[id]
+        delete this.usuarios[id]
     }
 }
 
